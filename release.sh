@@ -16,7 +16,7 @@ git push
 cleanup="docs images vlExamples vlTest-gallery vlTests release.sh"
 last_commit=$(git rev-parse HEAD)
 
-git clone --reference . git@github.com:jeffesp/elm-vega.git release
+git clone --reference . https://github.com/jeffesp/elm-vega.git release
 (
   cd release
   git checkout $last_commit
